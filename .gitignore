@@ -1,0 +1,16 @@
+# environments and caches
+.venv/
+__pycache__/
+*.pyc
+
+# external code and weights (see README "Setup")
+third_party/
+weights/
+
+# generated data and results (large; regenerate with the scripts)
+outputs/
+outputs_20x8/
+train_data/
+data512/
+runs/
+*.log
